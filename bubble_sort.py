@@ -7,10 +7,15 @@ import random
 
 def bubble_sort(data):
     for i in range(len(data)-1):
+        swapped = True
         for j in range(len(data)-1-i):
             if data[j] > data[j+1]:
                 data[j], data[j+1] = data[j+1], data[j]
+            else:
+                swapped = True
         print(data)
+        if not swapped:
+            break
     return data
 
 
