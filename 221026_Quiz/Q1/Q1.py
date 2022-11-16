@@ -1,7 +1,5 @@
 import random
 # output StuID and Name
-print("學號: 110213027, 姓名: 簡齊君")
-print()
 
 
 def main():
